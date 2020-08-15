@@ -18,8 +18,9 @@ $ ~/loop_pngs.sh ~/my_gif
 Backgrounds are lovely whether they are gray-scale or rainbow-colored, minimal
 or exuberant, low quality or 4K, static or _dynamic_.
 
--- _dynamic_ you say?!
--- Aye!S
+-_dynamic_ you say?!
+
+-Aye!
 
 # Animated-background
 
