@@ -16,9 +16,9 @@ $ ~/loop_pngs.sh ~/my_gif
 # Intro
 
 Backgrounds are lovely whether they are gray-scale or rainbow-colored, minimal
-or exuberant, low quality or 4K, static or $dynamic$.
+or exuberant, low quality or 4K, static or _dynamic_.
 
--- $dynamic$ you say?!
+-- _dynamic_ you say?!
 -- Aye!S
 
 # Animated-background
@@ -110,7 +110,7 @@ argument at `loop_png.sh` like such:
 ```
 $ ./loop_pngs.sh ~/Desktop/forest 0.05
 ```
-This will force the gif to update every 0.05 seconds. The default value os 0.1 seconds.
+This will force the gif to update every 0.05 seconds. The default value is 0.1 seconds.
 
 ## Resource Usage
 
