@@ -75,8 +75,12 @@ Your background should now be _awesome_ (dot gif).
 ### Let it run silently
 
 If you want to have the animated background to run at, well, the background you
-can run it as such: ```sh $ ~/path-to-repo/loop_pngs.sh ~/awesome & $ disown &&
-exit ```
+can run it as such:
+
+```sh
+$ ~/path-to-repo/loop_pngs.sh ~/awesome &
+$ disown && exit
+```
 
 If you want to run it when i3 boots up, then add the following line to your `i3/config`:
 
