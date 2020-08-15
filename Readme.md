@@ -1,4 +1,4 @@
-## tl;dr
+# tl;dr
 
 Set gifs as background in [i3wm](https://wiki.archlinux.org/index.php/I3).
 
@@ -77,8 +77,11 @@ If you want to have the animated background to run at, well, the background -
 no pun intended - you can run it as such: ```sh $ ~/path-to-repo/loop_pngs.sh
 ~/awesome & $ disown && exit ```
 
-If you want to run it when i3 boots up, then you will have to create a script
-file that contains the following
+If you want to run it when i3 boots up, then add the following line to your `i3/config`:
+
+```
+exec --no-startup-id /path-to-repo/animated-background/scripts/loop_pngs.sh ~/awesome
+```
 
 # Notes
 
@@ -87,14 +90,22 @@ file that contains the following
 You can optionally change the default refresh rate of by giving a second
 argument at `loop_png.sh` like such:
 
-
 ```
 $ ./loop_pngs.sh ~/Desktop/forest 0.05
 ```
 This will force the gif to update every 0.05 seconds. The default value os 0.1 seconds.
 
-## Resources
+## Resource Usage
 
 Bear in mind that using animated background can be computationally intensive,
 especially when at frequent refresh! Personally, 0.1 sec refresh rate is OK for
 my laptop, but you maybe want to adjust this.
+
+I know that this can be _vastly_ optimized in terms of performance. For now,
+since my laptop can handle it without significant performance issues and it is
+only 2 commands long, so I use it. Maybe you will also.
+
+## Similar things
+
+If you are into moving backgrounds, you might be interested in
+(this)[https://www.reddit.com/r/linuxmasterrace/comments/84hhw5/animated_gif_as_wallpaper_i3_arch/].
