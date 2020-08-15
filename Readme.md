@@ -121,4 +121,4 @@ only 2 commands long, so I use it. Maybe you will also.
 ## Similar things
 
 If you are into moving backgrounds, you might be interested in
-(this)[https://www.reddit.com/r/linuxmasterrace/comments/84hhw5/animated_gif_as_wallpaper_i3_arch/].
+[this](https://www.reddit.com/r/linuxmasterrace/comments/84hhw5/animated_gif_as_wallpaper_i3_arch/).
