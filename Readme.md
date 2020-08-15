@@ -33,6 +33,7 @@ them already installed in your system. There are:
 2. [feh](https://feh.finalrewind.org/) - for setting background
 
 Now, let's make it move!
+
 ![](scott.gif)
 
 ## Find a gif
@@ -82,6 +83,18 @@ If you want to run it when i3 boots up, then add the following line to your `i3/
 ```
 exec --no-startup-id /path-to-repo/animated-background/scripts/loop_pngs.sh ~/awesome
 ```
+
+### Other usages
+
+If you are not into animation, then you can use the script to simply
+update your backgrounds periodically. You can create a folder with your favourite images and run:
+
+```
+~/path-to-repo/loop_pngs.sh ~/my_favourite_images 900
+```
+
+This will rotate through your images every 15 minutes. You will have not to
+worry about performance issues in this case.
 
 # Notes
 
