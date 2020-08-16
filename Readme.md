@@ -78,7 +78,7 @@ $ ~/path-to-repo/loop_pngs.sh ~/awesome
 ```
 Your background should now be _awesome_ (dot gif).
 
-### Let it run silently
+### Run silently
 
 If you want to have the animated background to run at, well, the background you
 can run it as such:
