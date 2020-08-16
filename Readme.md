@@ -13,6 +13,11 @@ $ ~/loop_pngs.sh ~/my_gif
 
 ![](animated-background.gif)
 
+
+## Result
+
+https://giphy.com/gifs/UWDwB6IfEZx8QkelUP
+
 # Intro
 
 Backgrounds are lovely whether they are gray-scale or rainbow-colored, minimal
