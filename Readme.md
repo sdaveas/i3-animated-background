@@ -44,7 +44,7 @@ Now, let's make it move!
 
 ## Find a gif
 
-Go ahead and find a gif. You'd appreciate a gif good quality one. I have
+Go ahead and find a gif. You'd appreciate a good quality one. I have
 included some I found around at
 [/gifs](https://github.com/sdaveas/animated-background/tree/master/gifs).
 Moving on!
