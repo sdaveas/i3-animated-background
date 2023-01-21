@@ -118,6 +118,16 @@ $ ./loop_pngs.sh ~/Desktop/forest 0.05
 ```
 This will force the gif to update every 0.05 seconds. The default value is 0.1 seconds.
 
+## Rendering mode
+
+You can optionally change how the wallpaper will be rendered by giving a third argument, just like the example shown below:
+```
+$ ./loop_pngs.sh ~/Desktop/forest 0.05 f
+```
+In this case, it will stretch the gif if it ain't the exact proportions of the screen, for instance, if you used a 1366x768
+gif in a 1980x1080 monitor it would have black borders in normal mode, however, with f the whole background will be filled (although
+some of the image quality might be lost)
+
 ## Resource Usage
 
 Bear in mind that using animated background can be computationally intensive,
