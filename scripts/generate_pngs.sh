@@ -18,4 +18,4 @@ else
 fi
 
 mkdir $dir
-convert $1 -coalesce $dir"/"$name"%03d.png"
+magick $1 -coalesce $dir"/"$name"%03d.png"
